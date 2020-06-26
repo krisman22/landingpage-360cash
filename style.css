@@ -193,7 +193,7 @@ button {
 }
 
 .service-block {
-    justify-content: ;
+    justify-content: center;
 }
 
 .service-desc {
@@ -437,13 +437,18 @@ ul {
          text-align: center;
      }
 
-     .footer .logo-footer, .menu-footer {
+     .logo-footer, .menu-footer {
          display: none;
      }
 
-     .footer .copyright {
-         
+     .copyright {
+         padding-top: 0;
+         padding-bottom: 20px;
      }
+     .row-footer {
+         padding-top: 0;
+     }
+     
   }
 
   @media (min-width: 900px) {
